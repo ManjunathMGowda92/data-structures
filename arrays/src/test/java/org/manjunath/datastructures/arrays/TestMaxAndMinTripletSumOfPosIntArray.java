@@ -31,4 +31,21 @@ public class TestMaxAndMinTripletSumOfPosIntArray {
 			Assert.assertTrue(false);
 		}
 	}
+	
+	@Test(testName = "testMinTripletSum1", alwaysRun = true)
+	@TestCase(Author = "Manjunath HM",
+	testCaseDescription = "Test the functionality of minTripletSum() method, to get the minimum triplet sum from the given input array",
+	expectedResult = "Minimum triplet sum of given Array, i.e -83")
+	public void testMinTripletSum1() {
+		int[] arr = {10, 85, -35, 98, 23, 15, -12, -36, 96, 16};
+		try {
+			Assert.assertEquals(tripletSum.minTripletSum(arr), -83);
+		} catch (AssertionError e) {
+			Reporter.log("AssertionError Occurred: "+e, true);
+			Assert.assertTrue(false);
+		} catch (Exception e) {
+			Reporter.log("Exception Occurred: "+e, true);
+			Assert.assertTrue(false);
+		}
+	}
 }
