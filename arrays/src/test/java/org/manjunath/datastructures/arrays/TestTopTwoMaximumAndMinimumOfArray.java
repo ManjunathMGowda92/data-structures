@@ -2,6 +2,7 @@ package org.manjunath.datastructures.arrays;
 
 import org.manjunath.datastructures.arrays.documentation.TestCase;
 import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -105,5 +106,10 @@ public class TestTopTwoMaximumAndMinimumOfArray {
 			Assert.assertTrue(false);
 		}
 		Reporter.log("TestTopTwoMaximumAndMinimumOfArray: End of testTopTwoMinimumOfArray2() method", true);
+	}
+	
+	@AfterTest
+	public void destroyObject() {
+		test = null;
 	}
 }
