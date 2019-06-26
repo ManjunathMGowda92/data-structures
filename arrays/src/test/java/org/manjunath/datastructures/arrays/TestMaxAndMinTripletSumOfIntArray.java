@@ -3,6 +3,7 @@ package org.manjunath.datastructures.arrays;
 import org.manjunath.datastructures.arrays.documentation.TestCase;
 import org.testng.Assert;
 import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -93,5 +94,10 @@ public class TestMaxAndMinTripletSumOfIntArray {
 			Assert.assertTrue(false);
 		}
 		Reporter.log("TestMaxAndMinTripletSumOfPosIntArray: End of testMinTripletSum2() method", true);
+	}
+	
+	@AfterTest
+	public void destroyObject(){
+		tripletSum = null;
 	}
 }
