@@ -15,7 +15,7 @@ package org.manjunath.datastructures.arrays;
  * @author Manjunath HM
  *
  */
-public class MaxAndMinTripletSumOfPosIntArray {
+public class MaxAndMinTripletSumOfIntArray {
 	
 	/**
 	 * Method maxTripletSum() is used to find out the max triplet sum from the
@@ -85,15 +85,5 @@ public class MaxAndMinTripletSumOfPosIntArray {
 		//return the min triplet sum
 		return (min1 == Integer.MAX_VALUE ? 0 : min1) + (min2 == Integer.MAX_VALUE ? 0 : min2)
 				+ (min3 == Integer.MAX_VALUE ? 0 : min3);
-	}
-	
-	
-	public static void main(String[] args) {
-		MaxAndMinTripletSumOfPosIntArray a = new MaxAndMinTripletSumOfPosIntArray();
-		
-		int[] arr = {10, 85, -35, 98, 23, 15, -12, -36, 96, 16};
-		
-		System.out.println(a.maxTripletSum(arr));
-		System.out.println(a.minTripletSum(arr));
 	}
 }

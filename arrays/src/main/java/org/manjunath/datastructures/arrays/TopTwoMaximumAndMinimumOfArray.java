@@ -88,11 +88,4 @@ public class TopTwoMaximumAndMinimumOfArray {
 		//return the array which contains the bottom 2 elements
 		return bottomTwo;
 	}
-	
-	public static void main(String[] args) {
-		TopTwoMaximumAndMinimumOfArray a = new TopTwoMaximumAndMinimumOfArray();
-		int[] numbers = {10, 15, 3, 95, 65, 84, 26, 45, 13, 94};
-		a.topTwoMaximum(numbers);
-		a.topTwoMinimum(numbers);
-	}
 }
