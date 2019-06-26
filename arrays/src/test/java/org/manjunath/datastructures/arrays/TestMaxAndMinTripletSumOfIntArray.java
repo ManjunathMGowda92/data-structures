@@ -6,12 +6,12 @@ import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TestMaxAndMinTripletSumOfPosIntArray {
-	private MaxAndMinTripletSumOfPosIntArray tripletSum;
+public class TestMaxAndMinTripletSumOfIntArray {
+	private MaxAndMinTripletSumOfIntArray tripletSum;
 
 	@BeforeTest
 	public void doInitialization() {
-		tripletSum = new MaxAndMinTripletSumOfPosIntArray();
+		tripletSum = new MaxAndMinTripletSumOfIntArray();
 	}
 
 	@Test(testName = "testMaxTripletSum1", alwaysRun = true)
