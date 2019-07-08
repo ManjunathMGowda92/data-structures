@@ -2,7 +2,7 @@ package org.manjunath.datastructures.arrays;
 
 /**
  * Class MaxAndMinTripletSumOfPosIntArray is used to find the max triplet sum
- * and min triplet sum of from the given Integer Array
+ * and min triplet sum from the given Integer Array
  * 
  * The class contains 2 methods
  * <ol>

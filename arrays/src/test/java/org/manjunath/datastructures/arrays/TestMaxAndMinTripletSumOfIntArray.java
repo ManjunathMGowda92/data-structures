@@ -7,6 +7,13 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+/**
+ * Class TestMaxAndMinTripletSumOfIntArray is a TestCase Class which is used to
+ * test the methods of class MaxAndMinTripletSumOfIntArray
+ * 
+ * @author Manjunath HM
+ *
+ */
 public class TestMaxAndMinTripletSumOfIntArray {
 	private MaxAndMinTripletSumOfIntArray tripletSum;
 

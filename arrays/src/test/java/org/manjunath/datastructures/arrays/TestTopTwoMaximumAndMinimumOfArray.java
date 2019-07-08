@@ -8,6 +8,13 @@ import org.testng.annotations.Test;
 
 import junit.framework.Assert;
 
+/**
+ * Class TestTopTwoMaximumAndMinimumOfArray is a TestCase class which is used to
+ * test the methods of class TopTwoMaximumAndMinimumOfArray
+ * 
+ * @author Manjunath HM
+ *
+ */
 public class TestTopTwoMaximumAndMinimumOfArray {
 	private TopTwoMaximumAndMinimumOfArray test;
 	
