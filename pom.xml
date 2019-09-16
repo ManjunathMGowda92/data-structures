@@ -46,5 +46,6 @@
 		<module>trees</module>		
 		<module>heap</module>
 		<module>graphs</module>
+		<module>matrix</module>
 	</modules>
 </project>
