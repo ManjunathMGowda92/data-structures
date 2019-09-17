@@ -1,5 +1,6 @@
 package org.manjunath.matrix.problems;
 
+import org.manjunath.matrix.documentation.TestCase;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
@@ -15,6 +16,9 @@ public class TestLowerAndUpperPartOfMatrix {
 	}
 	
 	@Test(testName = "testGetLowerPartOfMatrix1", alwaysRun = true)
+	@TestCase(Author = "Manjunath HM", 
+	testCaseDescription = "To test the methods of LowerAndUpperPartOfMatrix class", 
+	expectedResult = "should return the matrix with only lower part")
 	public void testGetLowerPartOfMatrix1(){
 		Reporter.log("TestLowerAndUpperPartOfMatrix: Start of testGetLowerPartOfMatrix1() method", true);
 		
@@ -36,6 +40,9 @@ public class TestLowerAndUpperPartOfMatrix {
 	}
 	
 	@Test(testName = "testGetLowerPartOfMatrix2", alwaysRun = true)
+	@TestCase(Author = "Manjunath HM", 
+	testCaseDescription = "To test the methods of LowerAndUpperPartOfMatrix class", 
+	expectedResult = "should return the matrix with only lower part")
 	public void testGetLowerPartOfMatrix2(){
 		Reporter.log("TestLowerAndUpperPartOfMatrix: Start of testGetLowerPartOfMatrix2() method", true);
 		
@@ -57,6 +64,9 @@ public class TestLowerAndUpperPartOfMatrix {
 	}
 	
 	@Test(testName = "testGetUpperPartOfMatrix1", alwaysRun = true)
+	@TestCase(Author = "Manjunath HM", 
+	testCaseDescription = "To test the methods of LowerAndUpperPartOfMatrix class", 
+	expectedResult = "should return the matrix with only upper part")
 	public void testGetUpperPartOfMatrix1(){
 		Reporter.log("TestLowerAndUpperPartOfMatrix: Start of testGetUpperPartOfMatrix1() method", true);
 		
@@ -78,6 +88,9 @@ public class TestLowerAndUpperPartOfMatrix {
 	}
 	
 	@Test(testName = "testGetUpperPartOfMatrix2", alwaysRun = true)
+	@TestCase(Author = "Manjunath HM", 
+	testCaseDescription = "To test the methods of LowerAndUpperPartOfMatrix class", 
+	expectedResult = "should return the matrix with only upper part")
 	public void testGetUpperPartOfMatrix2(){
 		Reporter.log("TestLowerAndUpperPartOfMatrix: Start of testGetUpperPartOfMatrix2() method", true);
 		
