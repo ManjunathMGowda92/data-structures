@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
-@Target(ElementType.METHOD)
+@Target(value = {ElementType.METHOD})
 public @interface TestCase {
 	public String Author() default "Manjunath HM";
 	public String testCaseDescription() default "";
